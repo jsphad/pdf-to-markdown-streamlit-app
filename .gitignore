@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual environments
+.venv/
+.venv-1/
+venv/
+env/
+
+# Local runtime directories (not used by cloud version)
+outputs/
+temp/
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Old config location (replaced by .streamlit/config.toml)
+streamlit/
